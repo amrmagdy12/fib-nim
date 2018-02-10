@@ -4,7 +4,7 @@ while(numC!=0):
     print("player 1 turn: ")
     p1=int(input())
     while(p1<0):
-        print("mafesh haga esmha negative/n enter again ya 7aywan:")
+        print("negative numbers not allowed , Enter again :")
         p1=int(input()) 
     if(p1==numC):
         print("you Can't take all of Coins")
